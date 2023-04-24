@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+}
+
+/*************HEADER*************/
+#cabecalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px;
+}
+
+.nome-logo {
+  font-family: 'Kufam', sans-serif;
+  color: #190495;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.link-navigation {
+  font-family: 'Kufam', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  color: #000000;
+}
+
+.link-navigation:hover {
+  text-decoration: underline;
+  color: #190495;
+  transition: transform 1s ease-in-out;
+}
+
+/**************CONTEUDO*****/
+#principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.principal-texto {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 15px 317px 85px;
+  top: 223px;
+  
+}
+
+.subtitulo {
+  font-family: 'Kufam', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #190495;
+  
+}
+
+.titulo-chave {
+  font-family: 'Kufam', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #0E0644;
+}
+
+.paragrafo {
+  font-family: 'Kufam', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  color: #000000;
+  margin-top: 30px;
+}
+
+.principal-botao {
+  margin-top: 65px;
+}
+
+.botao-primeiro {
+  border: none;
+  border-radius: 30px;
+  background: #190495;
+  width: 200px;
+  height: 52px;
+  font-family: 'Kufam', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.botao-primeiro:hover {
+  background: #ffffff;
+  color: #190495;
+  transition: 1.5s;
+}
+
+.botao-segundo {
+  font-family: 'Kufam', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #190495;
+  border: none;
+  margin-left: 16px;
+}
+
+.botao-segundo:hover {
+  text-decoration: underline;
+  color: #000000;
+  font-size: 20px;
+  transition: 1s;
+}
+
+.imagem {
+  height: 558px;
+  width: 722px;
+  left: 666px;
+  top: 233px;
+  border-radius: 0px;
+
+}
